@@ -47,7 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
 
 .castoro-regular {
     font-family: "Castoro", serif;
@@ -65,6 +64,16 @@ table {
 body{
     font-family:  "Castoro", serif;
     font-weight: 400;
+    line-height: 1.5;
+}
+
+img{
+  vertical-align: middle
+}
+
+a{
+  text-decoration: none;
+  color: #000;
 }
   
   .container{
@@ -74,7 +83,6 @@ body{
 
   .h1,.h2{
     font-size: 128px;
-    line-height: 192px;
     text-transform: uppercase;
     letter-spacing: 0.12em;
   }
@@ -103,25 +111,20 @@ body{
     width: 50%;
     padding: 48px 0;
     font-size: 32px;
-    line-height: 48px;
     letter-spacing: 1.1px;
   }
   .card{
     max-width: 50%;
     margin-bottom: 40px;
     font-size: 24px;
-    line-height: 36px;
   }
 
   .card>a{
-    text-decoration: none;
-    color: #000;
     display: block;
   }
 
   .card small{
     font-size: 20px;
-    line-height: 30px;
     font-style: italic;
     color: #949494;
   }
@@ -159,7 +162,6 @@ body{
   }
   .h3{
     font-size: 40px;
-    line-height: 60px;
     color: #AE0000;
     border-bottom: 3px solid #AE0000;
     margin-bottom: 16px;
